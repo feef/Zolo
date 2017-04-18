@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FFE53EF7C68CF30D4BDF7DC /* Pods_ZoloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB57618DF69867AC02763E /* Pods_ZoloUITests.framework */; };
+		487FA00B1EA62A5B008DBAE9 /* FetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0071EA62A5B008DBAE9 /* FetchOperation.swift */; };
+		487FA00C1EA62A5B008DBAE9 /* FetchOperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0081EA62A5B008DBAE9 /* FetchOperationError.swift */; };
+		487FA00D1EA62A5B008DBAE9 /* FetchOperationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0091EA62A5B008DBAE9 /* FetchOperationResult.swift */; };
+		487FA00E1EA62A5B008DBAE9 /* FetchWatchablesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA00A1EA62A5B008DBAE9 /* FetchWatchablesOperation.swift */; };
+		487FA0121EA62A93008DBAE9 /* WatchableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA00F1EA62A93008DBAE9 /* WatchableTableViewCell.swift */; };
+		487FA0131EA62A93008DBAE9 /* WatchableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487FA0101EA62A93008DBAE9 /* WatchableTableViewCell.xib */; };
+		487FA0141EA62A93008DBAE9 /* WatchableTableViewCellPopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0111EA62A93008DBAE9 /* WatchableTableViewCellPopulator.swift */; };
+		487FA0171EA62AA0008DBAE9 /* SourceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0151EA62AA0008DBAE9 /* SourceButton.swift */; };
+		487FA0181EA62AA0008DBAE9 /* SourceButtonPopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0161EA62AA0008DBAE9 /* SourceButtonPopulator.swift */; };
+		487FA01C1EA62ABE008DBAE9 /* Watchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0191EA62ABE008DBAE9 /* Watchable.swift */; };
+		487FA01D1EA62ABE008DBAE9 /* WatchablePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA01A1EA62ABE008DBAE9 /* WatchablePoster.swift */; };
+		487FA01E1EA62ABE008DBAE9 /* WatchableSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA01B1EA62ABE008DBAE9 /* WatchableSource.swift */; };
+		487FA0241EA62AE7008DBAE9 /* OperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA01F1EA62AE7008DBAE9 /* OperationQueue.swift */; };
+		487FA0251EA62AE7008DBAE9 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0201EA62AE7008DBAE9 /* UIImageView.swift */; };
+		487FA0261EA62AE7008DBAE9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0211EA62AE7008DBAE9 /* UIView.swift */; };
+		487FA0271EA62AE7008DBAE9 /* UIViewAnimationCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0221EA62AE7008DBAE9 /* UIViewAnimationCurve.swift */; };
+		487FA0281EA62AE7008DBAE9 /* URLQueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0231EA62AE7008DBAE9 /* URLQueryItem.swift */; };
+		487FA02C1EA62B1A008DBAE9 /* WatchableSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0291EA62B1A008DBAE9 /* WatchableSearchController.swift */; };
+		487FA02D1EA62B1A008DBAE9 /* WatchableSearchControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA02A1EA62B1A008DBAE9 /* WatchableSearchControllerDelegate.swift */; };
+		487FA02E1EA62B1A008DBAE9 /* WatchableSearchControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA02B1EA62B1A008DBAE9 /* WatchableSearchControllerState.swift */; };
+		487FA0301EA62B21008DBAE9 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA02F1EA62B21008DBAE9 /* KeyboardManager.swift */; };
+		487FA0321EA62B49008DBAE9 /* WatchableSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA0311EA62B49008DBAE9 /* WatchableSearchViewController.swift */; };
+		48AEEEED1E9E001400A18CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEEEEC1E9E001400A18CC9 /* AppDelegate.swift */; };
+		48AEEEF21E9E001400A18CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AEEEF01E9E001400A18CC9 /* Main.storyboard */; };
+		48AEEEF41E9E001400A18CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEEEF31E9E001400A18CC9 /* Assets.xcassets */; };
+		48AEEEF71E9E001400A18CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AEEEF51E9E001400A18CC9 /* LaunchScreen.storyboard */; };
+		48AEEF021E9E001400A18CC9 /* ZoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEEF011E9E001400A18CC9 /* ZoloTests.swift */; };
+		48AEEF0D1E9E001400A18CC9 /* ZoloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEEF0C1E9E001400A18CC9 /* ZoloUITests.swift */; };
+		744F0095DFB5E929EE3A631B /* Pods_ZoloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84461486FD4806ABDAA1974A /* Pods_ZoloTests.framework */; };
+		A93D2965C1DB017D705E7834 /* Pods_Zolo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18025D24EA5CB0AC674FA3D /* Pods_Zolo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48AEEEFE1E9E001400A18CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48AEEEE11E9E001400A18CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48AEEEE81E9E001400A18CC9;
+			remoteInfo = Zolo;
+		};
+		48AEEF091E9E001400A18CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48AEEEE11E9E001400A18CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48AEEEE81E9E001400A18CC9;
+			remoteInfo = Zolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ACB57618DF69867AC02763E /* Pods_ZoloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C975E614883FF852CE41576 /* Pods-ZoloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoloTests/Pods-ZoloTests.release.xcconfig"; sourceTree = "<group>"; };
+		457C84CE58EBAE9BABDC62FB /* Pods-Zolo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zolo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zolo/Pods-Zolo.release.xcconfig"; sourceTree = "<group>"; };
+		484D4A021EA108520082089C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		487FA0071EA62A5B008DBAE9 /* FetchOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchOperation.swift; path = Operations/FetchOperation.swift; sourceTree = "<group>"; };
+		487FA0081EA62A5B008DBAE9 /* FetchOperationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchOperationError.swift; path = Operations/FetchOperationError.swift; sourceTree = "<group>"; };
+		487FA0091EA62A5B008DBAE9 /* FetchOperationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchOperationResult.swift; path = Operations/FetchOperationResult.swift; sourceTree = "<group>"; };
+		487FA00A1EA62A5B008DBAE9 /* FetchWatchablesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchWatchablesOperation.swift; path = Operations/FetchWatchablesOperation.swift; sourceTree = "<group>"; };
+		487FA00F1EA62A93008DBAE9 /* WatchableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableTableViewCell.swift; path = Views/WatchableTableViewCell/WatchableTableViewCell.swift; sourceTree = "<group>"; };
+		487FA0101EA62A93008DBAE9 /* WatchableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WatchableTableViewCell.xib; path = Views/WatchableTableViewCell/WatchableTableViewCell.xib; sourceTree = "<group>"; };
+		487FA0111EA62A93008DBAE9 /* WatchableTableViewCellPopulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableTableViewCellPopulator.swift; path = Views/WatchableTableViewCell/WatchableTableViewCellPopulator.swift; sourceTree = "<group>"; };
+		487FA0151EA62AA0008DBAE9 /* SourceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourceButton.swift; path = Views/SourceButton/SourceButton.swift; sourceTree = "<group>"; };
+		487FA0161EA62AA0008DBAE9 /* SourceButtonPopulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourceButtonPopulator.swift; path = Views/SourceButton/SourceButtonPopulator.swift; sourceTree = "<group>"; };
+		487FA0191EA62ABE008DBAE9 /* Watchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Watchable.swift; path = Models/Watchable.swift; sourceTree = "<group>"; };
+		487FA01A1EA62ABE008DBAE9 /* WatchablePoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchablePoster.swift; path = Models/WatchablePoster.swift; sourceTree = "<group>"; };
+		487FA01B1EA62ABE008DBAE9 /* WatchableSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableSource.swift; path = Models/WatchableSource.swift; sourceTree = "<group>"; };
+		487FA01F1EA62AE7008DBAE9 /* OperationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperationQueue.swift; path = Extensions/OperationQueue.swift; sourceTree = "<group>"; };
+		487FA0201EA62AE7008DBAE9 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Extensions/UIImageView.swift; sourceTree = "<group>"; };
+		487FA0211EA62AE7008DBAE9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extensions/UIView.swift; sourceTree = "<group>"; };
+		487FA0221EA62AE7008DBAE9 /* UIViewAnimationCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewAnimationCurve.swift; path = Extensions/UIViewAnimationCurve.swift; sourceTree = "<group>"; };
+		487FA0231EA62AE7008DBAE9 /* URLQueryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLQueryItem.swift; path = Extensions/URLQueryItem.swift; sourceTree = "<group>"; };
+		487FA0291EA62B1A008DBAE9 /* WatchableSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableSearchController.swift; path = LogicHandlers/WatchableSearchController/WatchableSearchController.swift; sourceTree = "<group>"; };
+		487FA02A1EA62B1A008DBAE9 /* WatchableSearchControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableSearchControllerDelegate.swift; path = LogicHandlers/WatchableSearchController/WatchableSearchControllerDelegate.swift; sourceTree = "<group>"; };
+		487FA02B1EA62B1A008DBAE9 /* WatchableSearchControllerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableSearchControllerState.swift; path = LogicHandlers/WatchableSearchController/WatchableSearchControllerState.swift; sourceTree = "<group>"; };
+		487FA02F1EA62B21008DBAE9 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardManager.swift; path = LogicHandlers/KeyboardManager.swift; sourceTree = "<group>"; };
+		487FA0311EA62B49008DBAE9 /* WatchableSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchableSearchViewController.swift; path = ViewControllers/WatchableSearchViewController.swift; sourceTree = "<group>"; };
+		48AEEEE91E9E001400A18CC9 /* Zolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEEEEC1E9E001400A18CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48AEEEF11E9E001400A18CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48AEEEF31E9E001400A18CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48AEEEF61E9E001400A18CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48AEEEF81E9E001400A18CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AEEEFD1E9E001400A18CC9 /* ZoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEEF011E9E001400A18CC9 /* ZoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoloTests.swift; sourceTree = "<group>"; };
+		48AEEF031E9E001400A18CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AEEF081E9E001400A18CC9 /* ZoloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEEF0C1E9E001400A18CC9 /* ZoloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoloUITests.swift; sourceTree = "<group>"; };
+		48AEEF0E1E9E001400A18CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BC7CE3E202FC27C26ED11E /* Pods-ZoloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoloUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoloUITests/Pods-ZoloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84461486FD4806ABDAA1974A /* Pods_ZoloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB455C1137F601EACCBEC8B /* Pods-ZoloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoloTests/Pods-ZoloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBD6DCACAE6DCE0C0F089D2 /* Pods-Zolo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zolo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zolo/Pods-Zolo.debug.xcconfig"; sourceTree = "<group>"; };
+		C18025D24EA5CB0AC674FA3D /* Pods_Zolo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zolo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB048481F45ABDF5FAA849 /* Pods-ZoloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoloUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoloUITests/Pods-ZoloUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48AEEEE61E9E001400A18CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93D2965C1DB017D705E7834 /* Pods_Zolo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEEFA1E9E001400A18CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F0095DFB5E929EE3A631B /* Pods_ZoloTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEF051E9E001400A18CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFE53EF7C68CF30D4BDF7DC /* Pods_ZoloUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484D49F91EA105A70082089C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				487FA01F1EA62AE7008DBAE9 /* OperationQueue.swift */,
+				487FA0201EA62AE7008DBAE9 /* UIImageView.swift */,
+				487FA0211EA62AE7008DBAE9 /* UIView.swift */,
+				487FA0221EA62AE7008DBAE9 /* UIViewAnimationCurve.swift */,
+				487FA0231EA62AE7008DBAE9 /* URLQueryItem.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		484D49FA1EA105B40082089C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				487FA0191EA62ABE008DBAE9 /* Watchable.swift */,
+				487FA01A1EA62ABE008DBAE9 /* WatchablePoster.swift */,
+				487FA01B1EA62ABE008DBAE9 /* WatchableSource.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		484D49FB1EA105DE0082089C /* LogicHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				487FA02F1EA62B21008DBAE9 /* KeyboardManager.swift */,
+				487FA0011EA613B3008DBAE9 /* WatchableSearchController */,
+			);
+			name = LogicHandlers;
+			sourceTree = "<group>";
+		};
+		484D49FC1EA106300082089C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				487F9FFC1EA60A99008DBAE9 /* SourceButton */,
+				487F9FFB1EA60A8D008DBAE9 /* WatchableTableViewCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		484D49FD1EA106390082089C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				487FA0311EA62B49008DBAE9 /* WatchableSearchViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		484D49FE1EA106B50082089C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				487FA0071EA62A5B008DBAE9 /* FetchOperation.swift */,
+				487FA0081EA62A5B008DBAE9 /* FetchOperationError.swift */,
+				487FA0091EA62A5B008DBAE9 /* FetchOperationResult.swift */,
+				487FA00A1EA62A5B008DBAE9 /* FetchWatchablesOperation.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		487F9FFB1EA60A8D008DBAE9 /* WatchableTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				487FA00F1EA62A93008DBAE9 /* WatchableTableViewCell.swift */,
+				487FA0101EA62A93008DBAE9 /* WatchableTableViewCell.xib */,
+				487FA0111EA62A93008DBAE9 /* WatchableTableViewCellPopulator.swift */,
+			);
+			name = WatchableTableViewCell;
+			sourceTree = "<group>";
+		};
+		487F9FFC1EA60A99008DBAE9 /* SourceButton */ = {
+			isa = PBXGroup;
+			children = (
+				487FA0151EA62AA0008DBAE9 /* SourceButton.swift */,
+				487FA0161EA62AA0008DBAE9 /* SourceButtonPopulator.swift */,
+			);
+			name = SourceButton;
+			sourceTree = "<group>";
+		};
+		487FA0011EA613B3008DBAE9 /* WatchableSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				487FA0291EA62B1A008DBAE9 /* WatchableSearchController.swift */,
+				487FA02A1EA62B1A008DBAE9 /* WatchableSearchControllerDelegate.swift */,
+				487FA02B1EA62B1A008DBAE9 /* WatchableSearchControllerState.swift */,
+			);
+			name = WatchableSearchController;
+			sourceTree = "<group>";
+		};
+		48AEEEE01E9E001400A18CC9 = {
+			isa = PBXGroup;
+			children = (
+				48AEEEEB1E9E001400A18CC9 /* Zolo */,
+				48AEEF001E9E001400A18CC9 /* ZoloTests */,
+				48AEEF0B1E9E001400A18CC9 /* ZoloUITests */,
+				48AEEEEA1E9E001400A18CC9 /* Products */,
+				D292253A59B251D16645CA0D /* Pods */,
+				C502DEB492A22A467DF51975 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48AEEEEA1E9E001400A18CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48AEEEE91E9E001400A18CC9 /* Zolo.app */,
+				48AEEEFD1E9E001400A18CC9 /* ZoloTests.xctest */,
+				48AEEF081E9E001400A18CC9 /* ZoloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48AEEEEB1E9E001400A18CC9 /* Zolo */ = {
+			isa = PBXGroup;
+			children = (
+				48AEEEEC1E9E001400A18CC9 /* AppDelegate.swift */,
+				48AEEEF31E9E001400A18CC9 /* Assets.xcassets */,
+				484D49F91EA105A70082089C /* Extensions */,
+				48AEEEF81E9E001400A18CC9 /* Info.plist */,
+				48AEEEF51E9E001400A18CC9 /* LaunchScreen.storyboard */,
+				484D49FB1EA105DE0082089C /* LogicHandlers */,
+				48AEEEF01E9E001400A18CC9 /* Main.storyboard */,
+				484D49FA1EA105B40082089C /* Models */,
+				484D49FE1EA106B50082089C /* Operations */,
+				484D49FD1EA106390082089C /* ViewControllers */,
+				484D49FC1EA106300082089C /* Views */,
+			);
+			path = Zolo;
+			sourceTree = "<group>";
+		};
+		48AEEF001E9E001400A18CC9 /* ZoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				48AEEF011E9E001400A18CC9 /* ZoloTests.swift */,
+				48AEEF031E9E001400A18CC9 /* Info.plist */,
+			);
+			path = ZoloTests;
+			sourceTree = "<group>";
+		};
+		48AEEF0B1E9E001400A18CC9 /* ZoloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48AEEF0C1E9E001400A18CC9 /* ZoloUITests.swift */,
+				48AEEF0E1E9E001400A18CC9 /* Info.plist */,
+			);
+			path = ZoloUITests;
+			sourceTree = "<group>";
+		};
+		C502DEB492A22A467DF51975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18025D24EA5CB0AC674FA3D /* Pods_Zolo.framework */,
+				84461486FD4806ABDAA1974A /* Pods_ZoloTests.framework */,
+				1ACB57618DF69867AC02763E /* Pods_ZoloUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D292253A59B251D16645CA0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEBD6DCACAE6DCE0C0F089D2 /* Pods-Zolo.debug.xcconfig */,
+				457C84CE58EBAE9BABDC62FB /* Pods-Zolo.release.xcconfig */,
+				8AB455C1137F601EACCBEC8B /* Pods-ZoloTests.debug.xcconfig */,
+				1C975E614883FF852CE41576 /* Pods-ZoloTests.release.xcconfig */,
+				55BC7CE3E202FC27C26ED11E /* Pods-ZoloUITests.debug.xcconfig */,
+				CFDB048481F45ABDF5FAA849 /* Pods-ZoloUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48AEEEE81E9E001400A18CC9 /* Zolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AEEF111E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "Zolo" */;
+			buildPhases = (
+				BFCB0DEC9F29F3837EA22E79 /* [CP] Check Pods Manifest.lock */,
+				48AEEEE51E9E001400A18CC9 /* Sources */,
+				48AEEEE61E9E001400A18CC9 /* Frameworks */,
+				48AEEEE71E9E001400A18CC9 /* Resources */,
+				0B6E531F9BE4615A6579203A /* [CP] Embed Pods Frameworks */,
+				F23D39B01D4D67DE096178BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zolo;
+			productName = Zolo;
+			productReference = 48AEEEE91E9E001400A18CC9 /* Zolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48AEEEFC1E9E001400A18CC9 /* ZoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AEEF141E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "ZoloTests" */;
+			buildPhases = (
+				D6E6590D16CF6ED0D891D559 /* [CP] Check Pods Manifest.lock */,
+				48AEEEF91E9E001400A18CC9 /* Sources */,
+				48AEEEFA1E9E001400A18CC9 /* Frameworks */,
+				48AEEEFB1E9E001400A18CC9 /* Resources */,
+				64E6CD28B9BC7B77F59C513D /* [CP] Embed Pods Frameworks */,
+				DC8C560A9FE343D8DB404302 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48AEEEFF1E9E001400A18CC9 /* PBXTargetDependency */,
+			);
+			name = ZoloTests;
+			productName = ZoloTests;
+			productReference = 48AEEEFD1E9E001400A18CC9 /* ZoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48AEEF071E9E001400A18CC9 /* ZoloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AEEF171E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "ZoloUITests" */;
+			buildPhases = (
+				CDA607ED53AFB91A41138337 /* [CP] Check Pods Manifest.lock */,
+				48AEEF041E9E001400A18CC9 /* Sources */,
+				48AEEF051E9E001400A18CC9 /* Frameworks */,
+				48AEEF061E9E001400A18CC9 /* Resources */,
+				1791FDE74EF2B294143082E8 /* [CP] Embed Pods Frameworks */,
+				C5F6AD9AB7962716E0D1A934 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48AEEF0A1E9E001400A18CC9 /* PBXTargetDependency */,
+			);
+			name = ZoloUITests;
+			productName = ZoloUITests;
+			productReference = 48AEEF081E9E001400A18CC9 /* ZoloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48AEEEE11E9E001400A18CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Feef Anthony";
+				TargetAttributes = {
+					48AEEEE81E9E001400A18CC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 239483289D;
+						ProvisioningStyle = Automatic;
+					};
+					48AEEEFC1E9E001400A18CC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48AEEEE81E9E001400A18CC9;
+					};
+					48AEEF071E9E001400A18CC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48AEEEE81E9E001400A18CC9;
+					};
+				};
+			};
+			buildConfigurationList = 48AEEEE41E9E001400A18CC9 /* Build configuration list for PBXProject "Zolo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48AEEEE01E9E001400A18CC9;
+			productRefGroup = 48AEEEEA1E9E001400A18CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48AEEEE81E9E001400A18CC9 /* Zolo */,
+				48AEEEFC1E9E001400A18CC9 /* ZoloTests */,
+				48AEEF071E9E001400A18CC9 /* ZoloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48AEEEE71E9E001400A18CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEEEF71E9E001400A18CC9 /* LaunchScreen.storyboard in Resources */,
+				48AEEEF41E9E001400A18CC9 /* Assets.xcassets in Resources */,
+				48AEEEF21E9E001400A18CC9 /* Main.storyboard in Resources */,
+				487FA0131EA62A93008DBAE9 /* WatchableTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEEFB1E9E001400A18CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEF061E9E001400A18CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6E531F9BE4615A6579203A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zolo/Pods-Zolo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1791FDE74EF2B294143082E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoloUITests/Pods-ZoloUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E6CD28B9BC7B77F59C513D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoloTests/Pods-ZoloTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCB0DEC9F29F3837EA22E79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F6AD9AB7962716E0D1A934 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoloUITests/Pods-ZoloUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA607ED53AFB91A41138337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E6590D16CF6ED0D891D559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8C560A9FE343D8DB404302 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoloTests/Pods-ZoloTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23D39B01D4D67DE096178BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zolo/Pods-Zolo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48AEEEE51E9E001400A18CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487FA0281EA62AE7008DBAE9 /* URLQueryItem.swift in Sources */,
+				487FA0181EA62AA0008DBAE9 /* SourceButtonPopulator.swift in Sources */,
+				487FA02D1EA62B1A008DBAE9 /* WatchableSearchControllerDelegate.swift in Sources */,
+				487FA0171EA62AA0008DBAE9 /* SourceButton.swift in Sources */,
+				487FA01E1EA62ABE008DBAE9 /* WatchableSource.swift in Sources */,
+				487FA0301EA62B21008DBAE9 /* KeyboardManager.swift in Sources */,
+				487FA0141EA62A93008DBAE9 /* WatchableTableViewCellPopulator.swift in Sources */,
+				487FA00D1EA62A5B008DBAE9 /* FetchOperationResult.swift in Sources */,
+				487FA0121EA62A93008DBAE9 /* WatchableTableViewCell.swift in Sources */,
+				487FA02E1EA62B1A008DBAE9 /* WatchableSearchControllerState.swift in Sources */,
+				487FA01C1EA62ABE008DBAE9 /* Watchable.swift in Sources */,
+				487FA0271EA62AE7008DBAE9 /* UIViewAnimationCurve.swift in Sources */,
+				487FA00E1EA62A5B008DBAE9 /* FetchWatchablesOperation.swift in Sources */,
+				487FA0321EA62B49008DBAE9 /* WatchableSearchViewController.swift in Sources */,
+				487FA01D1EA62ABE008DBAE9 /* WatchablePoster.swift in Sources */,
+				487FA02C1EA62B1A008DBAE9 /* WatchableSearchController.swift in Sources */,
+				487FA0251EA62AE7008DBAE9 /* UIImageView.swift in Sources */,
+				487FA00C1EA62A5B008DBAE9 /* FetchOperationError.swift in Sources */,
+				48AEEEED1E9E001400A18CC9 /* AppDelegate.swift in Sources */,
+				487FA0261EA62AE7008DBAE9 /* UIView.swift in Sources */,
+				487FA00B1EA62A5B008DBAE9 /* FetchOperation.swift in Sources */,
+				487FA0241EA62AE7008DBAE9 /* OperationQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEEF91E9E001400A18CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEEF021E9E001400A18CC9 /* ZoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEEF041E9E001400A18CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEEF0D1E9E001400A18CC9 /* ZoloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48AEEEFF1E9E001400A18CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48AEEEE81E9E001400A18CC9 /* Zolo */;
+			targetProxy = 48AEEEFE1E9E001400A18CC9 /* PBXContainerItemProxy */;
+		};
+		48AEEF0A1E9E001400A18CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48AEEEE81E9E001400A18CC9 /* Zolo */;
+			targetProxy = 48AEEF091E9E001400A18CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48AEEEF01E9E001400A18CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48AEEEF11E9E001400A18CC9 /* Base */,
+				484D4A021EA108520082089C /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48AEEEF51E9E001400A18CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48AEEEF61E9E001400A18CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48AEEF0F1E9E001400A18CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48AEEF101E9E001400A18CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48AEEF121E9E001400A18CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBD6DCACAE6DCE0C0F089D2 /* Pods-Zolo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 239483289D;
+				INFOPLIST_FILE = Zolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.Zolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48AEEF131E9E001400A18CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457C84CE58EBAE9BABDC62FB /* Pods-Zolo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 239483289D;
+				INFOPLIST_FILE = Zolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.Zolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48AEEF151E9E001400A18CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB455C1137F601EACCBEC8B /* Pods-ZoloTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.ZoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zolo.app/Zolo";
+			};
+			name = Debug;
+		};
+		48AEEF161E9E001400A18CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C975E614883FF852CE41576 /* Pods-ZoloTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.ZoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zolo.app/Zolo";
+			};
+			name = Release;
+		};
+		48AEEF181E9E001400A18CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BC7CE3E202FC27C26ED11E /* Pods-ZoloUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.ZoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Zolo;
+			};
+			name = Debug;
+		};
+		48AEEF191E9E001400A18CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDB048481F45ABDF5FAA849 /* Pods-ZoloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.ZoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Zolo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48AEEEE41E9E001400A18CC9 /* Build configuration list for PBXProject "Zolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AEEF0F1E9E001400A18CC9 /* Debug */,
+				48AEEF101E9E001400A18CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AEEF111E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "Zolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AEEF121E9E001400A18CC9 /* Debug */,
+				48AEEF131E9E001400A18CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AEEF141E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "ZoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AEEF151E9E001400A18CC9 /* Debug */,
+				48AEEF161E9E001400A18CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AEEF171E9E001400A18CC9 /* Build configuration list for PBXNativeTarget "ZoloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AEEF181E9E001400A18CC9 /* Debug */,
+				48AEEF191E9E001400A18CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48AEEEE11E9E001400A18CC9 /* Project object */;
+}

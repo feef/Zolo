@@ -1,0 +1,6 @@
+framework module Pods_ZoloUITests {
+  umbrella header "Pods-ZoloUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

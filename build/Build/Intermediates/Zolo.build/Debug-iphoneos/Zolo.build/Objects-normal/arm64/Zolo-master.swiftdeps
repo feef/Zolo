@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "2ec109ae2218b5980288706d5050bc5b"
+build_time: [545819620, 239075000]
+inputs:
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/UIView.swift": [545493462, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/SourceButtonPopulator.swift": [545510241, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/FetchWatchablesOperation.swift": [545508158, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchableSearchController.swift": [545512207, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/Watchable.swift": [545509701, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchableTableViewCell.swift": [545510241, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchableSource.swift": [545504316, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/UIImageView.swift": [545507455, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/FetchOperation.swift": [545508158, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchablePoster.swift": [545505456, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchableSearchViewController.swift": [545512093, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/KeyboardManager.swift": [545512020, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/WatchableTableViewCellPopulator.swift": [545510241, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/URLQueryItem.swift": [545507028, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/SourceButton.swift": [545509925, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/AppDelegate.swift": [545320266, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/OperationQueue.swift": [545413762, 0]
+  "/Users/sharifahmed/Desktop/Zolo/Zolo/UIViewAnimationCurve.swift": [545512095, 0]

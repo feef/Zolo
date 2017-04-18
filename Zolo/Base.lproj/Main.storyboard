@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Watchable Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WatchableSearchViewController" customModule="Zolo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXF-Zy-kpN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for movies and tv shows" translatesAutoresizingMaskIntoConstraints="NO" id="K7W-1y-Owl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-eY-fCn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xXF-Zy-kpN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="8rR-QS-Fej"/>
+                            <constraint firstAttribute="trailing" secondItem="xXF-Zy-kpN" secondAttribute="trailing" id="BIK-rJ-zoi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xXF-Zy-kpN" secondAttribute="bottom" id="MGb-5c-Y7c"/>
+                            <constraint firstItem="hjV-eY-fCn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QCH-4D-2J7"/>
+                            <constraint firstItem="hjV-eY-fCn" firstAttribute="top" secondItem="K7W-1y-Owl" secondAttribute="bottom" id="Svm-Aw-Vz9"/>
+                            <constraint firstAttribute="trailing" secondItem="K7W-1y-Owl" secondAttribute="trailing" id="Xat-Bc-Wjx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hjV-eY-fCn" secondAttribute="bottom" id="ekO-bU-BSR"/>
+                            <constraint firstItem="K7W-1y-Owl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hVa-VC-7Cg"/>
+                            <constraint firstAttribute="trailing" secondItem="hjV-eY-fCn" secondAttribute="trailing" id="icc-JD-VDK"/>
+                            <constraint firstItem="xXF-Zy-kpN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qCg-u1-HaF"/>
+                            <constraint firstItem="K7W-1y-Owl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="w18-FE-tQ2"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="backgroundContainerToBottomConstraint" destination="MGb-5c-Y7c" id="kE7-aK-5v6"/>
+                        <outlet property="backgroundContainerView" destination="xXF-Zy-kpN" id="ci7-9E-Jb7"/>
+                        <outlet property="searchBar" destination="K7W-1y-Owl" id="ibH-H6-wPM"/>
+                        <outlet property="tableView" destination="hjV-eY-fCn" id="DXc-d4-6jP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="103.89805097451276"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WatchableTableViewCell"
+provides-nominal:
+- "C4Zolo22WatchableTableViewCell"
+provides-member:
+- ["C4Zolo22WatchableTableViewCell", ""]
+provides-dynamic-lookup:
+- "linksScrollView"
+- "associatedNib"
+- "reuseIdentifier"
+- "titleLabel"
+- "descriptionLabel"
+- "sourceButtons"
+- "yearLabel"
+- "posterImageView"
+- "preferredHeight"
+depends-top-level:
+- "CGFloat"
+- "SourceButton"
+- "String"
+- "StringLiteralType"
+- "UILabel"
+- "UIScrollView"
+- "WatchableTableViewCell"
+- "UIImageView"
+- "UITableViewCell"
+- "UINib"
+depends-member:
+- ["Ps9AnyObject", "UINib"]
+- ["Ps9AnyObject", "associatedNib"]
+- ["Ps9AnyObject", "descriptionLabel"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "linksScrollView"]
+- ["Ps9AnyObject", "posterImageView"]
+- ["Ps9AnyObject", "preferredHeight"]
+- ["Ps9AnyObject", "reuseIdentifier"]
+- ["Ps9AnyObject", "sourceButtons"]
+- ["Ps9AnyObject", "titleLabel"]
+- ["Ps9AnyObject", "yearLabel"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- ["PSo15CALayerDelegate", "UINib"]
+- ["PSo15CALayerDelegate", "associatedNib"]
+- ["PSo15CALayerDelegate", "descriptionLabel"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "linksScrollView"]
+- ["PSo15CALayerDelegate", "posterImageView"]
+- ["PSo15CALayerDelegate", "preferredHeight"]
+- ["PSo15CALayerDelegate", "reuseIdentifier"]
+- ["PSo15CALayerDelegate", "sourceButtons"]
+- ["PSo15CALayerDelegate", "titleLabel"]
+- ["PSo15CALayerDelegate", "yearLabel"]
+- ["PSo15CALayerDelegate", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "UINib"]
+- ["Ps7CVarArg", "associatedNib"]
+- ["Ps7CVarArg", "descriptionLabel"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "linksScrollView"]
+- ["Ps7CVarArg", "posterImageView"]
+- ["Ps7CVarArg", "preferredHeight"]
+- ["Ps7CVarArg", "reuseIdentifier"]
+- ["Ps7CVarArg", "sourceButtons"]
+- ["Ps7CVarArg", "titleLabel"]
+- ["Ps7CVarArg", "yearLabel"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "UINib"]
+- ["Ps28CustomDebugStringConvertible", "associatedNib"]
+- ["Ps28CustomDebugStringConvertible", "descriptionLabel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "linksScrollView"]
+- ["Ps28CustomDebugStringConvertible", "posterImageView"]
+- ["Ps28CustomDebugStringConvertible", "preferredHeight"]
+- ["Ps28CustomDebugStringConvertible", "reuseIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "sourceButtons"]
+- ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- ["Ps28CustomDebugStringConvertible", "yearLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "UINib"]
+- ["Ps23CustomStringConvertible", "associatedNib"]
+- ["Ps23CustomStringConvertible", "descriptionLabel"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "linksScrollView"]
+- ["Ps23CustomStringConvertible", "posterImageView"]
+- ["Ps23CustomStringConvertible", "preferredHeight"]
+- ["Ps23CustomStringConvertible", "reuseIdentifier"]
+- ["Ps23CustomStringConvertible", "sourceButtons"]
+- ["Ps23CustomStringConvertible", "titleLabel"]
+- ["Ps23CustomStringConvertible", "yearLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "UINib"]
+- ["Ps9Equatable", "associatedNib"]
+- ["Ps9Equatable", "descriptionLabel"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "linksScrollView"]
+- ["Ps9Equatable", "posterImageView"]
+- ["Ps9Equatable", "preferredHeight"]
+- ["Ps9Equatable", "reuseIdentifier"]
+- ["Ps9Equatable", "sourceButtons"]
+- ["Ps9Equatable", "titleLabel"]
+- ["Ps9Equatable", "yearLabel"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "UINib"]
+- ["Ps8Hashable", "associatedNib"]
+- ["Ps8Hashable", "descriptionLabel"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "linksScrollView"]
+- ["Ps8Hashable", "posterImageView"]
+- ["Ps8Hashable", "preferredHeight"]
+- ["Ps8Hashable", "reuseIdentifier"]
+- ["Ps8Hashable", "sourceButtons"]
+- ["Ps8Hashable", "titleLabel"]
+- ["Ps8Hashable", "yearLabel"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "UINib"]
+- ["PSo8NSCoding", "associatedNib"]
+- ["PSo8NSCoding", "descriptionLabel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "linksScrollView"]
+- ["PSo8NSCoding", "posterImageView"]
+- ["PSo8NSCoding", "preferredHeight"]
+- ["PSo8NSCoding", "reuseIdentifier"]
+- ["PSo8NSCoding", "sourceButtons"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", "yearLabel"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "SourceButton"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "UIScrollView"]
+- ["CSo8NSObject", "associatedNib"]
+- ["CSo8NSObject", "descriptionLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "linksScrollView"]
+- ["CSo8NSObject", "posterImageView"]
+- ["CSo8NSObject", "preferredHeight"]
+- ["CSo8NSObject", "reuseIdentifier"]
+- ["CSo8NSObject", "sourceButtons"]
+- ["CSo8NSObject", "titleLabel"]
+- ["CSo8NSObject", "yearLabel"]
+- ["PSo16NSObjectProtocol", "UINib"]
+- ["PSo16NSObjectProtocol", "associatedNib"]
+- ["PSo16NSObjectProtocol", "descriptionLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "linksScrollView"]
+- ["PSo16NSObjectProtocol", "posterImageView"]
+- ["PSo16NSObjectProtocol", "preferredHeight"]
+- ["PSo16NSObjectProtocol", "reuseIdentifier"]
+- ["PSo16NSObjectProtocol", "sourceButtons"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", "yearLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["PSo29UIAccessibilityIdentification", "UINib"]
+- ["PSo29UIAccessibilityIdentification", "associatedNib"]
+- ["PSo29UIAccessibilityIdentification", "descriptionLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "linksScrollView"]
+- ["PSo29UIAccessibilityIdentification", "posterImageView"]
+- ["PSo29UIAccessibilityIdentification", "preferredHeight"]
+- ["PSo29UIAccessibilityIdentification", "reuseIdentifier"]
+- ["PSo29UIAccessibilityIdentification", "sourceButtons"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", "yearLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "UINib"]
+- ["PSo12UIAppearance", "associatedNib"]
+- ["PSo12UIAppearance", "descriptionLabel"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "linksScrollView"]
+- ["PSo12UIAppearance", "posterImageView"]
+- ["PSo12UIAppearance", "preferredHeight"]
+- ["PSo12UIAppearance", "reuseIdentifier"]
+- ["PSo12UIAppearance", "sourceButtons"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", "yearLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "UINib"]
+- ["PSo21UIAppearanceContainer", "associatedNib"]
+- ["PSo21UIAppearanceContainer", "descriptionLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "linksScrollView"]
+- ["PSo21UIAppearanceContainer", "posterImageView"]
+- ["PSo21UIAppearanceContainer", "preferredHeight"]
+- ["PSo21UIAppearanceContainer", "reuseIdentifier"]
+- ["PSo21UIAppearanceContainer", "sourceButtons"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", "yearLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "UINib"]
+- ["PSo17UICoordinateSpace", "associatedNib"]
+- ["PSo17UICoordinateSpace", "descriptionLabel"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "linksScrollView"]
+- ["PSo17UICoordinateSpace", "posterImageView"]
+- ["PSo17UICoordinateSpace", "preferredHeight"]
+- ["PSo17UICoordinateSpace", "reuseIdentifier"]
+- ["PSo17UICoordinateSpace", "sourceButtons"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", "yearLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "UINib"]
+- ["PSo13UIDynamicItem", "associatedNib"]
+- ["PSo13UIDynamicItem", "descriptionLabel"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "linksScrollView"]
+- ["PSo13UIDynamicItem", "posterImageView"]
+- ["PSo13UIDynamicItem", "preferredHeight"]
+- ["PSo13UIDynamicItem", "reuseIdentifier"]
+- ["PSo13UIDynamicItem", "sourceButtons"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", "yearLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "UINib"]
+- ["PSo18UIFocusEnvironment", "associatedNib"]
+- ["PSo18UIFocusEnvironment", "descriptionLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "linksScrollView"]
+- ["PSo18UIFocusEnvironment", "posterImageView"]
+- ["PSo18UIFocusEnvironment", "preferredHeight"]
+- ["PSo18UIFocusEnvironment", "reuseIdentifier"]
+- ["PSo18UIFocusEnvironment", "sourceButtons"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", "yearLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "UINib"]
+- ["PSo11UIFocusItem", "associatedNib"]
+- ["PSo11UIFocusItem", "descriptionLabel"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "linksScrollView"]
+- ["PSo11UIFocusItem", "posterImageView"]
+- ["PSo11UIFocusItem", "preferredHeight"]
+- ["PSo11UIFocusItem", "reuseIdentifier"]
+- ["PSo11UIFocusItem", "sourceButtons"]
+- ["PSo11UIFocusItem", "titleLabel"]
+- ["PSo11UIFocusItem", "yearLabel"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "UINib"]
+- ["PSo27UIGestureRecognizerDelegate", "associatedNib"]
+- ["PSo27UIGestureRecognizerDelegate", "descriptionLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "linksScrollView"]
+- ["PSo27UIGestureRecognizerDelegate", "posterImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "preferredHeight"]
+- ["PSo27UIGestureRecognizerDelegate", "reuseIdentifier"]
+- ["PSo27UIGestureRecognizerDelegate", "sourceButtons"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "yearLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo5UINib", "deinit"]
+- ["CSo5UINib", "init"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "SourceButton"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "UIScrollView"]
+- ["CSo11UIResponder", "associatedNib"]
+- ["CSo11UIResponder", "descriptionLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "linksScrollView"]
+- ["CSo11UIResponder", "posterImageView"]
+- ["CSo11UIResponder", "preferredHeight"]
+- ["CSo11UIResponder", "reuseIdentifier"]
+- ["CSo11UIResponder", "sourceButtons"]
+- ["CSo11UIResponder", "titleLabel"]
+- ["CSo11UIResponder", "yearLabel"]
+- ["PSo30UIResponderStandardEditActions", "UINib"]
+- ["PSo30UIResponderStandardEditActions", "associatedNib"]
+- ["PSo30UIResponderStandardEditActions", "descriptionLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "linksScrollView"]
+- ["PSo30UIResponderStandardEditActions", "posterImageView"]
+- ["PSo30UIResponderStandardEditActions", "preferredHeight"]
+- ["PSo30UIResponderStandardEditActions", "reuseIdentifier"]
+- ["PSo30UIResponderStandardEditActions", "sourceButtons"]
+- ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- ["PSo30UIResponderStandardEditActions", "yearLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "CGFloat"]
+- ["CSo15UITableViewCell", "SourceButton"]
+- ["CSo15UITableViewCell", "String"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UINib"]
+- ["CSo15UITableViewCell", "UIScrollView"]
+- ["CSo15UITableViewCell", "associatedNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "descriptionLabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "linksScrollView"]
+- ["CSo15UITableViewCell", "posterImageView"]
+- ["CSo15UITableViewCell", "preferredHeight"]
+- ["CSo15UITableViewCell", "reuseIdentifier"]
+- ["CSo15UITableViewCell", "sourceButtons"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", "yearLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "UINib"]
+- ["PSo18UITraitEnvironment", "associatedNib"]
+- ["PSo18UITraitEnvironment", "descriptionLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "linksScrollView"]
+- ["PSo18UITraitEnvironment", "posterImageView"]
+- ["PSo18UITraitEnvironment", "preferredHeight"]
+- ["PSo18UITraitEnvironment", "reuseIdentifier"]
+- ["PSo18UITraitEnvironment", "sourceButtons"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", "yearLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "SourceButton"]
+- ["CSo6UIView", "String"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UINib"]
+- ["CSo6UIView", "UIScrollView"]
+- ["CSo6UIView", "associatedNib"]
+- ["CSo6UIView", "descriptionLabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "linksScrollView"]
+- ["CSo6UIView", "posterImageView"]
+- ["CSo6UIView", "preferredHeight"]
+- ["CSo6UIView", "reuseIdentifier"]
+- ["CSo6UIView", "sourceButtons"]
+- ["CSo6UIView", "titleLabel"]
+- ["CSo6UIView", "yearLabel"]
+- ["C4Zolo22WatchableTableViewCell", "CGFloat"]
+- ["C4Zolo22WatchableTableViewCell", "SourceButton"]
+- ["C4Zolo22WatchableTableViewCell", "String"]
+- ["C4Zolo22WatchableTableViewCell", "UIImageView"]
+- ["C4Zolo22WatchableTableViewCell", "UILabel"]
+- ["C4Zolo22WatchableTableViewCell", "UINib"]
+- ["C4Zolo22WatchableTableViewCell", "UIScrollView"]
+- ["C4Zolo22WatchableTableViewCell", "associatedNib"]
+- ["C4Zolo22WatchableTableViewCell", "deinit"]
+- ["C4Zolo22WatchableTableViewCell", "descriptionLabel"]
+- ["C4Zolo22WatchableTableViewCell", "init"]
+- ["C4Zolo22WatchableTableViewCell", "linksScrollView"]
+- ["C4Zolo22WatchableTableViewCell", "posterImageView"]
+- ["C4Zolo22WatchableTableViewCell", "preferredHeight"]
+- ["C4Zolo22WatchableTableViewCell", "reuseIdentifier"]
+- ["C4Zolo22WatchableTableViewCell", "sourceButtons"]
+- ["C4Zolo22WatchableTableViewCell", "titleLabel"]
+- ["C4Zolo22WatchableTableViewCell", "yearLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UINib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "associatedNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "descriptionLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "linksScrollView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "posterImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "preferredHeight"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "reuseIdentifier"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "sourceButtons"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "yearLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "UINib"]
+- ["Ps9_Hashable", "associatedNib"]
+- ["Ps9_Hashable", "descriptionLabel"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "linksScrollView"]
+- ["Ps9_Hashable", "posterImageView"]
+- ["Ps9_Hashable", "preferredHeight"]
+- ["Ps9_Hashable", "reuseIdentifier"]
+- ["Ps9_Hashable", "sourceButtons"]
+- ["Ps9_Hashable", "titleLabel"]
+- ["Ps9_Hashable", "yearLabel"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "PSo15CALayerDelegate"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo5UINib"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "C4Zolo22WatchableTableViewCell"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm.swiftmodule"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+interface-hash: "7a58ad899b4a5b8cbc05e132f2f20abc"

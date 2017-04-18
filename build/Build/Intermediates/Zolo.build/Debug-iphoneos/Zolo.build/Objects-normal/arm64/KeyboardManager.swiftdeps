@@ -1,0 +1,541 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardManager"
+provides-nominal:
+- "C4Zolo15KeyboardManager"
+provides-member:
+- ["C4Zolo15KeyboardManager", ""]
+provides-dynamic-lookup:
+- "onHide"
+- "onChangeFrame"
+- "willHide"
+- "willChangeFrame"
+- "getFrame"
+- "onShow"
+- "willShow"
+depends-top-level:
+- !private "UIView"
+- "Void"
+- !private "StringLiteralType"
+- "KeyboardManager"
+- !private "NSNumber"
+- !private "NotificationCenter"
+- !private "UIKeyboardAnimationDurationUserInfoKey"
+- !private "NSValue"
+- !private "UIKeyboardAnimationCurveUserInfoKey"
+- !private "UIKeyboardFrameEndUserInfoKey"
+- !private "UIViewAnimationCurve"
+- "AssignmentPrecedence"
+- "Notification"
+- "CastingPrecedence"
+- "NSObject"
+- "CGRect"
+depends-member:
+- !private ["Ps9AnyObject", "Notification"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps9AnyObject", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps9AnyObject", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UIViewAnimationCurve"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "animate"]
+- !private ["Ps9AnyObject", "cgRectValue"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- ["Ps9AnyObject", "getFrame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "intValue"]
+- ["Ps9AnyObject", "onChangeFrame"]
+- ["Ps9AnyObject", "onHide"]
+- ["Ps9AnyObject", "onShow"]
+- ["Ps9AnyObject", "willChangeFrame"]
+- ["Ps9AnyObject", "willHide"]
+- ["Ps9AnyObject", "willShow"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "animate"]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Notification"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps7CVarArg", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps7CVarArg", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "UIViewAnimationCurve"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "animate"]
+- !private ["Ps7CVarArg", "cgRectValue"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "doubleValue"]
+- ["Ps7CVarArg", "getFrame"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "intValue"]
+- ["Ps7CVarArg", "onChangeFrame"]
+- ["Ps7CVarArg", "onHide"]
+- ["Ps7CVarArg", "onShow"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "willChangeFrame"]
+- ["Ps7CVarArg", "willHide"]
+- ["Ps7CVarArg", "willShow"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps10Comparable", "UIKeyboardWillHide"]
+- !private ["Ps10Comparable", "UIKeyboardWillShow"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "Notification"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewAnimationCurve"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- !private ["Ps28CustomDebugStringConvertible", "cgRectValue"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- ["Ps28CustomDebugStringConvertible", "getFrame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "intValue"]
+- ["Ps28CustomDebugStringConvertible", "onChangeFrame"]
+- ["Ps28CustomDebugStringConvertible", "onHide"]
+- ["Ps28CustomDebugStringConvertible", "onShow"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps28CustomDebugStringConvertible", "willChangeFrame"]
+- ["Ps28CustomDebugStringConvertible", "willHide"]
+- ["Ps28CustomDebugStringConvertible", "willShow"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "userInfo"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "Notification"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps23CustomStringConvertible", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps23CustomStringConvertible", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "UIViewAnimationCurve"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- !private ["Ps23CustomStringConvertible", "cgRectValue"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- ["Ps23CustomStringConvertible", "getFrame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "intValue"]
+- ["Ps23CustomStringConvertible", "onChangeFrame"]
+- ["Ps23CustomStringConvertible", "onHide"]
+- ["Ps23CustomStringConvertible", "onShow"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- ["Ps23CustomStringConvertible", "willChangeFrame"]
+- ["Ps23CustomStringConvertible", "willHide"]
+- ["Ps23CustomStringConvertible", "willShow"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "_Element"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps9Equatable", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps9Equatable", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps9Equatable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps9Equatable", "UIKeyboardWillHide"]
+- !private ["Ps9Equatable", "UIKeyboardWillShow"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "UIViewAnimationCurve"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "animate"]
+- !private ["Ps9Equatable", "cgRectValue"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "doubleValue"]
+- ["Ps9Equatable", "getFrame"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intValue"]
+- ["Ps9Equatable", "onChangeFrame"]
+- ["Ps9Equatable", "onHide"]
+- ["Ps9Equatable", "onShow"]
+- !private ["Ps9Equatable", "optionsValue"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps9Equatable", "willChangeFrame"]
+- ["Ps9Equatable", "willHide"]
+- ["Ps9Equatable", "willShow"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "intValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "doubleValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "intValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "intValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps8Hashable", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps8Hashable", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps8Hashable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps8Hashable", "UIKeyboardWillHide"]
+- !private ["Ps8Hashable", "UIKeyboardWillShow"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "UIViewAnimationCurve"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "animate"]
+- !private ["Ps8Hashable", "cgRectValue"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "doubleValue"]
+- ["Ps8Hashable", "getFrame"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "intValue"]
+- ["Ps8Hashable", "onChangeFrame"]
+- ["Ps8Hashable", "onHide"]
+- ["Ps8Hashable", "onShow"]
+- !private ["Ps8Hashable", "optionsValue"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["Ps8Hashable", "willChangeFrame"]
+- ["Ps8Hashable", "willHide"]
+- ["Ps8Hashable", "willShow"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["C4Zolo15KeyboardManager", "CGRect"]
+- ["C4Zolo15KeyboardManager", "KeyboardUpdateBlock"]
+- !private ["C4Zolo15KeyboardManager", "NSNumber"]
+- !private ["C4Zolo15KeyboardManager", "NSValue"]
+- ["C4Zolo15KeyboardManager", "Notification"]
+- !private ["C4Zolo15KeyboardManager", "NotificationCenter"]
+- !private ["C4Zolo15KeyboardManager", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["C4Zolo15KeyboardManager", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["C4Zolo15KeyboardManager", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["C4Zolo15KeyboardManager", "UIView"]
+- !private ["C4Zolo15KeyboardManager", "UIViewAnimationCurve"]
+- ["C4Zolo15KeyboardManager", "Void"]
+- ["C4Zolo15KeyboardManager", "deinit"]
+- ["C4Zolo15KeyboardManager", "getFrame"]
+- ["C4Zolo15KeyboardManager", "init"]
+- ["C4Zolo15KeyboardManager", "onChangeFrame"]
+- ["C4Zolo15KeyboardManager", "onHide"]
+- ["C4Zolo15KeyboardManager", "onShow"]
+- ["C4Zolo15KeyboardManager", "willChangeFrame"]
+- ["C4Zolo15KeyboardManager", "willHide"]
+- ["C4Zolo15KeyboardManager", "willShow"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "cgRectValue"]
+- !private ["PSo8NSCoding", "doubleValue"]
+- !private ["PSo8NSCoding", "intValue"]
+- !private ["PSo9NSCopying", "cgRectValue"]
+- !private ["PSo9NSCopying", "doubleValue"]
+- !private ["PSo9NSCopying", "intValue"]
+- ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSNumber", "doubleValue"]
+- !private ["CSo8NSNumber", "intValue"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "KeyboardUpdateBlock"]
+- !private ["CSo8NSObject", "NSNumber"]
+- !private ["CSo8NSObject", "NSValue"]
+- ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- !private ["CSo8NSObject", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["CSo8NSObject", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["CSo8NSObject", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "UIViewAnimationCurve"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "animate"]
+- !private ["CSo8NSObject", "cgRectValue"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "doubleValue"]
+- ["CSo8NSObject", "getFrame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "intValue"]
+- ["CSo8NSObject", "onChangeFrame"]
+- ["CSo8NSObject", "onHide"]
+- ["CSo8NSObject", "onShow"]
+- ["CSo8NSObject", "willChangeFrame"]
+- ["CSo8NSObject", "willHide"]
+- ["CSo8NSObject", "willShow"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Notification"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["PSo16NSObjectProtocol", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["PSo16NSObjectProtocol", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "UIViewAnimationCurve"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- !private ["PSo16NSObjectProtocol", "cgRectValue"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "doubleValue"]
+- ["PSo16NSObjectProtocol", "getFrame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "intValue"]
+- ["PSo16NSObjectProtocol", "onChangeFrame"]
+- ["PSo16NSObjectProtocol", "onHide"]
+- ["PSo16NSObjectProtocol", "onShow"]
+- ["PSo16NSObjectProtocol", "willChangeFrame"]
+- ["PSo16NSObjectProtocol", "willHide"]
+- ["PSo16NSObjectProtocol", "willShow"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "cgRectValue"]
+- !private ["PSo14NSSecureCoding", "doubleValue"]
+- !private ["PSo14NSSecureCoding", "intValue"]
+- !private ["CSo7NSValue", "cgRectValue"]
+- ["CSo7NSValue", "deinit"]
+- !private ["CSo7NSValue", "doubleValue"]
+- !private ["CSo7NSValue", "intValue"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillChangeFrame"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillHide"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillShow"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- ["Os5Never", "deinit"]
+- !private ["V10Foundation12Notification", "Name"]
+- ["V10Foundation12Notification", "deinit"]
+- !private ["V10Foundation12Notification", "userInfo"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillHide"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillShow"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "optionsValue"]
+- !private ["P10Foundation20ReferenceConvertible", "Name"]
+- !private ["P10Foundation20ReferenceConvertible", "userInfo"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["CSo11UIResponder", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["CSo6UIView", "animate"]
+- ["OSC20UIViewAnimationCurve", "deinit"]
+- !private ["OSC20UIViewAnimationCurve", "init"]
+- !private ["OSC20UIViewAnimationCurve", "optionsValue"]
+- ["VSC22UIViewAnimationOptions", "deinit"]
+- ["Su", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "doubleValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "intValue"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["Ps9_Hashable", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["Ps9_Hashable", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["Ps9_Hashable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps9_Hashable", "UIKeyboardWillHide"]
+- !private ["Ps9_Hashable", "UIKeyboardWillShow"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "UIViewAnimationCurve"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "animate"]
+- !private ["Ps9_Hashable", "cgRectValue"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "doubleValue"]
+- ["Ps9_Hashable", "getFrame"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "intValue"]
+- ["Ps9_Hashable", "onChangeFrame"]
+- ["Ps9_Hashable", "onHide"]
+- ["Ps9_Hashable", "onShow"]
+- !private ["Ps9_Hashable", "optionsValue"]
+- !private ["Ps9_Hashable", "userInfo"]
+- ["Ps9_Hashable", "willChangeFrame"]
+- ["Ps9_Hashable", "willHide"]
+- ["Ps9_Hashable", "willShow"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Name"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillHide"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillShow"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "userInfo"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillChangeFrame"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillHide"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillShow"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps16IteratorProtocol"
+- "C4Zolo15KeyboardManager"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo7NSValue"
+- "VCSo14NSNotification4Name"
+- "Os5Never"
+- "V10Foundation12Notification"
+- "CSo18NotificationCenter"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "Vs12StaticString"
+- "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "OSC20UIViewAnimationCurve"
+- "VSC22UIViewAnimationOptions"
+- "Su"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/sharifahmed/Desktop/Zolo/build/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+interface-hash: "84c21f543c6d4351a25f7a8d394c318e"

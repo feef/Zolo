@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Zolo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZoloTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZoloUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D389D024B7DEA24AA8E67E741E2B2C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7AEBC0B5652E9973B1B75A800E5EA55F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92CB3177D2AA641ED9B9F4D8D695A817</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F346FC5557F031CBC5E064D0AB0AEEAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEE2E2F30F1C93A7EE588397C2AB2AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
